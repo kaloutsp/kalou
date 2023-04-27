@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/project/exercise/static/css/main.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <table id="table" class="display">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Country</th>
+                <th>City</th>
+                <th>Stadium</th>
+                <th>Capacity</th>
+                <th>Established on</th>
+                <th>Record created on</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>NAC Breda</td>
+                <td>NL</td>
+                <td>Breda</td>
+                <td>Rat Verlegh Stadion</td>
+                <td>19000</td>
+                <td>19-9-1912</td>
+                <td>28-02-2022 14:00:00</td>
+            
+            </tr>
+
+            <tr>
+                <td>Union Sint-Gillis</td>
+                <td>BE</td>
+                <td>Vorst</td>
+                <td>Joseph Marien Stadion</td>
+                <td>8081</td>
+                <td>01-11-1897</td>
+                <td>28-02-2022 13:30:00</td>
+            
+            </tr>
+
+            <tr>
+                <td>Go Ahead Eagles</td>
+                <td>NL</td>
+                <td>Deventer</td>
+                <td>De Adelaarshorst</td>
+                <td>10400</td>
+                <td>02-12-1902</td>
+                <td>27-11-2021 13:30:00</td>
+            
+            </tr>
+
+        </tbody>
+    </table>
+    <script>
+        $(document).ready(function() {
+            $('#table').DataTable();
+        } );
+    </script>
+</body>
+</html>
